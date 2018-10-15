@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		484DFDF42174607200F8A5EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484DFDF32174607200F8A5EF /* AppDelegate.swift */; };
+		484DFDF92174607200F8A5EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484DFDF72174607200F8A5EF /* Main.storyboard */; };
+		484DFDFB2174607200F8A5EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484DFDFA2174607200F8A5EF /* Assets.xcassets */; };
+		484DFDFE2174607200F8A5EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484DFDFC2174607200F8A5EF /* LaunchScreen.storyboard */; };
+		484DFE092174609100F8A5EF /* OCInsterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484DFE072174609100F8A5EF /* OCInsterViewController.m */; };
+		484DFE0A2174609100F8A5EF /* OCInsterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 484DFE082174609100F8A5EF /* OCInsterViewController.xib */; };
+		484DFE0E217460DC00F8A5EF /* OCDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484DFE0D217460DC00F8A5EF /* OCDataViewController.m */; };
+		484DFE12217460E600F8A5EF /* OCUpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484DFE10217460E600F8A5EF /* OCUpdateViewController.m */; };
+		484DFE13217460E600F8A5EF /* OCUpdateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 484DFE11217460E600F8A5EF /* OCUpdateViewController.xib */; };
+		484DFE16217460FE00F8A5EF /* SwiftInsterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484DFE14217460FE00F8A5EF /* SwiftInsterViewController.swift */; };
+		484DFE17217460FE00F8A5EF /* SwiftInsterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 484DFE15217460FE00F8A5EF /* SwiftInsterViewController.xib */; };
+		484DFE1A2174610E00F8A5EF /* SwiftUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484DFE182174610E00F8A5EF /* SwiftUpdateViewController.swift */; };
+		484DFE1B2174610E00F8A5EF /* SwiftUpdateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 484DFE192174610E00F8A5EF /* SwiftUpdateViewController.xib */; };
+		484DFE1D2174611D00F8A5EF /* SwiftDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484DFE1C2174611D00F8A5EF /* SwiftDataViewController.swift */; };
+		484DFE202174613900F8A5EF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484DFE1F2174613900F8A5EF /* TabBarController.swift */; };
+		484DFE242174646900F8A5EF /* WDDataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484DFE232174646900F8A5EF /* WDDataBaseManager.swift */; };
+		484DFE262174652200F8A5EF /* HUDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484DFE252174652200F8A5EF /* HUDManager.swift */; };
+		484DFE2A2174668D00F8A5EF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484DFE292174668D00F8A5EF /* Model.swift */; };
+		48FBB64121747068000AB73B /* DataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FBB64021747068000AB73B /* DataBaseManager.m */; };
+		6A1E6D406F4B02FA8BB041A9 /* Pods_DataBaseManagerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4B78A47E5253AEDC4911E5 /* Pods_DataBaseManagerDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B4B78A47E5253AEDC4911E5 /* Pods_DataBaseManagerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataBaseManagerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40267F46F61684D2E2E0DA1A /* Pods-DataBaseManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataBaseManagerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DataBaseManagerDemo/Pods-DataBaseManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		484DFDF02174607200F8A5EF /* DataBaseManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataBaseManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		484DFDF32174607200F8A5EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		484DFDF82174607200F8A5EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		484DFDFA2174607200F8A5EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		484DFDFD2174607200F8A5EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		484DFDFF2174607200F8A5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		484DFE052174609000F8A5EF /* DataBaseManagerDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataBaseManagerDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		484DFE062174609100F8A5EF /* OCInsterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCInsterViewController.h; sourceTree = "<group>"; };
+		484DFE072174609100F8A5EF /* OCInsterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCInsterViewController.m; sourceTree = "<group>"; };
+		484DFE082174609100F8A5EF /* OCInsterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OCInsterViewController.xib; sourceTree = "<group>"; };
+		484DFE0C217460DC00F8A5EF /* OCDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCDataViewController.h; sourceTree = "<group>"; };
+		484DFE0D217460DC00F8A5EF /* OCDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCDataViewController.m; sourceTree = "<group>"; };
+		484DFE0F217460E600F8A5EF /* OCUpdateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCUpdateViewController.h; sourceTree = "<group>"; };
+		484DFE10217460E600F8A5EF /* OCUpdateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCUpdateViewController.m; sourceTree = "<group>"; };
+		484DFE11217460E600F8A5EF /* OCUpdateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OCUpdateViewController.xib; sourceTree = "<group>"; };
+		484DFE14217460FE00F8A5EF /* SwiftInsterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftInsterViewController.swift; sourceTree = "<group>"; };
+		484DFE15217460FE00F8A5EF /* SwiftInsterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwiftInsterViewController.xib; sourceTree = "<group>"; };
+		484DFE182174610E00F8A5EF /* SwiftUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUpdateViewController.swift; sourceTree = "<group>"; };
+		484DFE192174610E00F8A5EF /* SwiftUpdateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwiftUpdateViewController.xib; sourceTree = "<group>"; };
+		484DFE1C2174611D00F8A5EF /* SwiftDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataViewController.swift; sourceTree = "<group>"; };
+		484DFE1F2174613900F8A5EF /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		484DFE232174646900F8A5EF /* WDDataBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WDDataBaseManager.swift; sourceTree = "<group>"; };
+		484DFE252174652200F8A5EF /* HUDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDManager.swift; sourceTree = "<group>"; };
+		484DFE292174668D00F8A5EF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		48FBB63F21747068000AB73B /* DataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseManager.h; sourceTree = "<group>"; };
+		48FBB64021747068000AB73B /* DataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseManager.m; sourceTree = "<group>"; };
+		FCB4A7F8CFD70AFC1E3B2E83 /* Pods-DataBaseManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataBaseManagerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DataBaseManagerDemo/Pods-DataBaseManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		484DFDED2174607200F8A5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1E6D406F4B02FA8BB041A9 /* Pods_DataBaseManagerDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		086D76D506E7310A811697CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40267F46F61684D2E2E0DA1A /* Pods-DataBaseManagerDemo.debug.xcconfig */,
+				FCB4A7F8CFD70AFC1E3B2E83 /* Pods-DataBaseManagerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		44C9D094AE635B4A9BF12346 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B4B78A47E5253AEDC4911E5 /* Pods_DataBaseManagerDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		484DFDE72174607200F8A5EF = {
+			isa = PBXGroup;
+			children = (
+				484DFDF22174607200F8A5EF /* DataBaseManagerDemo */,
+				484DFDF12174607200F8A5EF /* Products */,
+				086D76D506E7310A811697CD /* Pods */,
+				44C9D094AE635B4A9BF12346 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		484DFDF12174607200F8A5EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				484DFDF02174607200F8A5EF /* DataBaseManagerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		484DFDF22174607200F8A5EF /* DataBaseManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				484DFDF32174607200F8A5EF /* AppDelegate.swift */,
+				484DFE1F2174613900F8A5EF /* TabBarController.swift */,
+				484DFE252174652200F8A5EF /* HUDManager.swift */,
+				484DFE292174668D00F8A5EF /* Model.swift */,
+				484DFE1E2174612000F8A5EF /* Swift */,
+				484DFE0B217460CD00F8A5EF /* OC */,
+				484DFDF72174607200F8A5EF /* Main.storyboard */,
+				484DFDFA2174607200F8A5EF /* Assets.xcassets */,
+				484DFDFC2174607200F8A5EF /* LaunchScreen.storyboard */,
+				484DFDFF2174607200F8A5EF /* Info.plist */,
+				484DFE052174609000F8A5EF /* DataBaseManagerDemo-Bridging-Header.h */,
+			);
+			path = DataBaseManagerDemo;
+			sourceTree = "<group>";
+		};
+		484DFE0B217460CD00F8A5EF /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				48FBB63F21747068000AB73B /* DataBaseManager.h */,
+				48FBB64021747068000AB73B /* DataBaseManager.m */,
+				484DFE062174609100F8A5EF /* OCInsterViewController.h */,
+				484DFE072174609100F8A5EF /* OCInsterViewController.m */,
+				484DFE082174609100F8A5EF /* OCInsterViewController.xib */,
+				484DFE0C217460DC00F8A5EF /* OCDataViewController.h */,
+				484DFE0D217460DC00F8A5EF /* OCDataViewController.m */,
+				484DFE0F217460E600F8A5EF /* OCUpdateViewController.h */,
+				484DFE10217460E600F8A5EF /* OCUpdateViewController.m */,
+				484DFE11217460E600F8A5EF /* OCUpdateViewController.xib */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
+		484DFE1E2174612000F8A5EF /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				484DFE232174646900F8A5EF /* WDDataBaseManager.swift */,
+				484DFE1C2174611D00F8A5EF /* SwiftDataViewController.swift */,
+				484DFE182174610E00F8A5EF /* SwiftUpdateViewController.swift */,
+				484DFE192174610E00F8A5EF /* SwiftUpdateViewController.xib */,
+				484DFE14217460FE00F8A5EF /* SwiftInsterViewController.swift */,
+				484DFE15217460FE00F8A5EF /* SwiftInsterViewController.xib */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		484DFDEF2174607200F8A5EF /* DataBaseManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484DFE022174607200F8A5EF /* Build configuration list for PBXNativeTarget "DataBaseManagerDemo" */;
+			buildPhases = (
+				DA4DF61E22EBFDD23542E87D /* [CP] Check Pods Manifest.lock */,
+				484DFDEC2174607200F8A5EF /* Sources */,
+				484DFDED2174607200F8A5EF /* Frameworks */,
+				484DFDEE2174607200F8A5EF /* Resources */,
+				84FA9F11165CA9FBC5FB9E89 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataBaseManagerDemo;
+			productName = DataBaseManagerDemo;
+			productReference = 484DFDF02174607200F8A5EF /* DataBaseManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		484DFDE82174607200F8A5EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = wudan;
+				TargetAttributes = {
+					484DFDEF2174607200F8A5EF = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 484DFDEB2174607200F8A5EF /* Build configuration list for PBXProject "DataBaseManagerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 484DFDE72174607200F8A5EF;
+			productRefGroup = 484DFDF12174607200F8A5EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				484DFDEF2174607200F8A5EF /* DataBaseManagerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		484DFDEE2174607200F8A5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484DFDFE2174607200F8A5EF /* LaunchScreen.storyboard in Resources */,
+				484DFE0A2174609100F8A5EF /* OCInsterViewController.xib in Resources */,
+				484DFE1B2174610E00F8A5EF /* SwiftUpdateViewController.xib in Resources */,
+				484DFDFB2174607200F8A5EF /* Assets.xcassets in Resources */,
+				484DFE17217460FE00F8A5EF /* SwiftInsterViewController.xib in Resources */,
+				484DFDF92174607200F8A5EF /* Main.storyboard in Resources */,
+				484DFE13217460E600F8A5EF /* OCUpdateViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84FA9F11165CA9FBC5FB9E89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DataBaseManagerDemo/Pods-DataBaseManagerDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DataBaseManagerDemo/Pods-DataBaseManagerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA4DF61E22EBFDD23542E87D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DataBaseManagerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		484DFDEC2174607200F8A5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484DFE0E217460DC00F8A5EF /* OCDataViewController.m in Sources */,
+				48FBB64121747068000AB73B /* DataBaseManager.m in Sources */,
+				484DFE16217460FE00F8A5EF /* SwiftInsterViewController.swift in Sources */,
+				484DFE202174613900F8A5EF /* TabBarController.swift in Sources */,
+				484DFE2A2174668D00F8A5EF /* Model.swift in Sources */,
+				484DFE092174609100F8A5EF /* OCInsterViewController.m in Sources */,
+				484DFE1A2174610E00F8A5EF /* SwiftUpdateViewController.swift in Sources */,
+				484DFE12217460E600F8A5EF /* OCUpdateViewController.m in Sources */,
+				484DFE242174646900F8A5EF /* WDDataBaseManager.swift in Sources */,
+				484DFE1D2174611D00F8A5EF /* SwiftDataViewController.swift in Sources */,
+				484DFDF42174607200F8A5EF /* AppDelegate.swift in Sources */,
+				484DFE262174652200F8A5EF /* HUDManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		484DFDF72174607200F8A5EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				484DFDF82174607200F8A5EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		484DFDFC2174607200F8A5EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				484DFDFD2174607200F8A5EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		484DFE002174607200F8A5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		484DFE012174607200F8A5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		484DFE032174607200F8A5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40267F46F61684D2E2E0DA1A /* Pods-DataBaseManagerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = DataBaseManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.forever.DataBaseManagerDemo;
+				PRODUCT_MODULE_NAME = DataBaseManagerDemo;
+				PRODUCT_NAME = DataBaseManagerDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = "DataBaseManagerDemo/DataBaseManagerDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		484DFE042174607200F8A5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCB4A7F8CFD70AFC1E3B2E83 /* Pods-DataBaseManagerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = DataBaseManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.forever.DataBaseManagerDemo;
+				PRODUCT_MODULE_NAME = DataBaseManagerDemo;
+				PRODUCT_NAME = DataBaseManagerDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = "DataBaseManagerDemo/DataBaseManagerDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		484DFDEB2174607200F8A5EF /* Build configuration list for PBXProject "DataBaseManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484DFE002174607200F8A5EF /* Debug */,
+				484DFE012174607200F8A5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484DFE022174607200F8A5EF /* Build configuration list for PBXNativeTarget "DataBaseManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484DFE032174607200F8A5EF /* Debug */,
+				484DFE042174607200F8A5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 484DFDE82174607200F8A5EF /* Project object */;
+}
